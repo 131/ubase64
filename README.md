@@ -21,3 +21,4 @@ var decode = require('ubase64/decode');
 * **sane API**
 
 [![Build Status](https://travis-ci.org/131/ubase64.svg?branch=master)](https://travis-ci.org/131/ubase64)
+[![Coverage Status](https://coveralls.io/repos/github/131/ubase64/badge.svg?branch=master)](https://coveralls.io/github/131/ubase64?branch=master)
