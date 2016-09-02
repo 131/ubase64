@@ -4,7 +4,7 @@
   "description": "Minimal base64 footprint (nothing fancy)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/131/ubase64/issues"
   },
-  "homepage": "https://github.com/131/ubase64"
+  "homepage": "https://github.com/131/ubase64",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2"
+  }
 }
