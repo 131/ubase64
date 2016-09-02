@@ -19,3 +19,5 @@ var decode = require('ubase64/decode');
 * full code coverage
 * minimal footprint for rollup/browserify
 * **sane API**
+
+[![Build Status](https://travis-ci.org/131/ubase64.svg?branch=master)](https://travis-ci.org/131/ubase64)
